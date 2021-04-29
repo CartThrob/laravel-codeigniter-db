@@ -23,7 +23,7 @@
         "psr-4": { "Illuminate\\CodeIgniter\\" : "src/" }
     },
     "require": {
-        "illuminate/database": "~4.1"
+        "illuminate/database": "~4.2"
     },
     "require-dev": {
         "mockery/mockery": "~0.9",

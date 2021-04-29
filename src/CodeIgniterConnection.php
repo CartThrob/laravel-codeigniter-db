@@ -92,7 +92,7 @@ class CodeIgniterConnection extends Connection
      * @param  array  $bindings
      * @return array
      */
-    public function select($query, $bindings = array())
+    public function select($query, $bindings = array(), $useReadPdo = true)
     {
         $self = $this;
 
